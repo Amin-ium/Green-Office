@@ -1,0 +1,138 @@
+/**************** Body Css *******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/fond.png);
+    width: 100%;
+}
+/**************** Header Css *******************/
+header{
+    background-color: #B6CC1F;
+    width: 750px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    line-height : 123px; 
+}
+nav ul li a{
+    text-transform: uppercase;
+}
+.link{
+    color: #2E4624;
+    font-family: "Oswald";
+    font-size: 1.3em;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: #B6CC1F;
+    background-color: #2E4624;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/**************** Main Css *******************/
+main{
+    width: 750px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+.section{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;   
+}
+.section .title{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.section .title .icon{
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin-top: 5px; 
+    margin-right: 5px;
+}
+.section .title h2{
+    color: #B6CC1F;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 400;
+}
+.section .blog .img{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;   
+}
+.blogPara{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #777777;
+    font-family: Verdana;
+    font-size: 14px;    
+}
+.section button{
+    height: 40px;
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    background-color: #B6CC1F;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.section button:hover{
+    background-color: white;
+    color: #B6CC1F;
+    border: 1px solid #B6CC1F;
+}
+.list{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.list li{
+    color: #777777;
+    font-family: Verdana;
+    font-size: 14px;
+}
+/**************** Footer Css *******************/
+footer{
+    margin-bottom: 10px;
+}
+footer img{
+    width: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: calc(50% - 25px);
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    color: #67855a;
+    font-family: Verdana; 
+}
+footer p a{
+    text-decoration: none;
+    text-decoration: underline;
+}
+footer p .email{
+    color: blue;
+}
+
